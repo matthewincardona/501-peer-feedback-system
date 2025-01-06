@@ -1,0 +1,29 @@
+.review-selection {
+    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 16px;
+    width: 300px;
+}
+
+.review-type {
+    font-weight: bold !important;
+    margin-bottom: 16px !important;
+}
+
+.review-option {
+    display: block;
+    margin-bottom: 8px !important;
+}
+
+.review-option .MuiTypography-root {
+    font-size: 16px;
+}
+
+.review-option .MuiRadio-root {
+    color: #ff6f00;
+}
+
+.review-option .MuiRadio-root.Mui-checked {
+    color: #ff6f00;
+}

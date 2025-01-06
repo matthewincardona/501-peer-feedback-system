@@ -1,0 +1,38 @@
+.userTable {
+    width: 500px;
+}
+
+.userTable__headers {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid var(--Color-Brand-color-primary-orange) 2px;
+}
+
+.userTable__user {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid var(--Color-Text-gray-300) 1px;
+}
+
+.userTable__userName {
+    cursor: pointer;
+}
+
+.userTable__userName:hover {
+    color: var(--Color-Brand-color-primary-orange);
+}
+
+.userTable__user--notResponded {
+    color: var(--Color-Brand-color-primary-orange);
+    font-weight: bold;
+}
+
+.userTable__buttonRow {
+    display: flex;
+    gap: var(--Typography-Spacing-spacing-m);
+    margin-top: var(--Typography-Spacing-spacing-m);
+}

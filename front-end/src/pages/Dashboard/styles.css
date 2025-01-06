@@ -1,0 +1,49 @@
+.dashboardPage__tabs {
+    margin-top: var(--Typography-Spacing-spacing-lg);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 2em;
+}
+
+.css-1bug3cd-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    background-color: var(--Color-Brand-color-primary-orange) !important;
+}
+
+.dashboardPage__tabs .MuiBox-root {
+    flex-wrap: wrap;
+}
+
+.css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: var(--Color-Brand-color-primary-orange) !important;
+}
+
+.css-1qltlow-MuiTabs-indicator {
+    background-color: var(--Color-Brand-color-primary-orange) !important;
+}
+
+.css-1p4j2ft {
+    padding-left: 0 !important;
+}
+
+.dashboardPage__adminViewBtn {
+    background-color: var(--Color-Brand-color-primary-orange);
+    border-radius: 1000px;
+    padding: 6px;
+    box-shadow: 3px 8px 18px 0px rgba(0, 0, 0, 0.08);
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+    width: 75px;
+    height: 75px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.dashboardPage__adminViewBtn p {
+    color: white;
+}
+
+.dashboardPage__adminViewBtn svg {
+    color: white;
+}

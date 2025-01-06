@@ -1,0 +1,132 @@
+.responses-table-container {
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.responses-table-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+/* body{
+  background-color: hsl(0, 0%, 95%);
+} */
+/* Buttons styling */
+.responses-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+button.csv-export,
+button.excel-export,
+button.pdf-export,
+button.summary {
+  color: #fff;
+  padding: 8px 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button.csv-export,
+button.excel-export {
+  background-color: #F76902;
+  /* Blue button background */
+}
+
+button.pdf-export {
+  background-color: #F76902;
+  /* Red button background */
+}
+
+button.summary {
+  background-color: #F76902;
+  /* Purple button background */
+}
+
+/* DataGrid table styling */
+.data-grid-container {
+  height: 400px;
+  width: 100%;
+  background-color: #ffffff;
+  /* White table background */
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  /* Light border around table */
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnHeaders {
+  background-color: #F76902;
+  /* Orange for headers */
+  color: #ffffff;
+  /* White header text */
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Column header icon visibility */
+.MuiDataGrid-root .MuiDataGrid-columnHeader .MuiDataGrid-sortIcon,
+.MuiDataGrid-root .MuiDataGrid-columnHeader .MuiDataGrid-menuIcon {
+  color: #ffffff !important;
+  /* White color for header icons */
+  opacity: 1 !important;
+  /* Always visible */
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnHeaderTitle {
+  font-weight: bold;
+}
+
+.MuiDataGrid-root .MuiDataGrid-row {
+  background-color: #f2f2f2;
+  /* Light gray for rows */
+}
+
+.MuiDataGrid-root .MuiDataGrid-row:nth-of-type(even) {
+  background-color: #e0e0e0;
+  /* Slightly darker gray for alternate rows */
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell {
+  color: #333333;
+  /* Dark gray cell text */
+  font-size: 14px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+/* Hide the selected row count at the bottom of the DataGrid */
+.MuiDataGrid-selectedRowCount {
+  display: none;
+}
+
+/* Remove border from rows */
+.MuiDataGrid-row--borderBottom {
+  border-bottom: none !important;
+}
+
+/* Remove background from column header rows */
+.css-yseucu-MuiDataGrid-columnHeaderRow {
+  background: none !important;
+}
+
+@media (min-width: 600px) {
+  .css-de9k3v-MuiDataGrid-selectedRowCount {
+    visibility: hidden !important;
+  }
+}
+
+button.csv-export,
+button.excel-export,
+button.pdf-export,
+button.summary {
+  border-radius: 0;
+}

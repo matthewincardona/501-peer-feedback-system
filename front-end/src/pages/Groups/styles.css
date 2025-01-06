@@ -1,0 +1,8 @@
+.groupsPage__dropdown {
+    margin-bottom: var(--Typography-Spacing-spacing-xl);
+    max-width: 500px;
+}
+
+.groupsPage__teams h4 {
+    margin-bottom: var(--Typography-Spacing-spacing-m);
+}

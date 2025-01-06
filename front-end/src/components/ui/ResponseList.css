@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Neue+Haas+Grotesk+Display+Pro:wght@400;700&display=swap');
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #f5f5f5;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+td {
+    color: #333;
+}
+
+td:nth-child(2) {
+    color: orange;
+    /* Style for status column */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

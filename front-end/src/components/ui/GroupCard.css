@@ -1,0 +1,25 @@
+.groupCard {
+    display: flex;
+    flex-direction: column;
+    width: 488px;
+    height: fit-content;
+    padding: var(--Typography-Spacing-spacing-lg);
+    border: 1px solid var(--Color-Text-gray-100, #e9ecef);
+    background: var(--Schemes-On-Primary, #fff);
+    border-radius: 4px;
+    /* card-drop-shadow */
+    box-shadow: 3px 8px 18px 0px rgba(0, 0, 0, 0.08);
+    /* gap: var(--Typography-Spacing-spacing-lg); */
+}
+
+.groupCard__teams {
+    display: flex;
+    flex-direction: column;
+    gap: var(--Typography-Spacing-spacing-m)
+}
+
+.groupCard__teamContainers {
+    display: flex;
+    gap: 16px var(--Typography-Spacing-spacing-m, 16px);
+    flex-wrap: wrap;
+}

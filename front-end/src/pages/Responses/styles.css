@@ -1,0 +1,31 @@
+.responsesPage__container {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+}
+
+.responsesPage__responses,
+.responsesPage__evals {
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+}
+
+.responsesPage__title {
+    display: flex;
+    gap: var(--Typography-Spacing-spacing-lg);
+}
+
+.responsesPage__title h4 {
+    border-bottom: 1px solid var(--Color-Text-gray-200);
+}
+
+.responsesPage__radioButtons {
+    display: flex;
+    flex-direction: column;
+    gap: var(--Typography-Spacing-spacing-xs);
+}
+
+.responsesPage__divider {
+    border-top: var(--Color-Text-gray-200);
+}

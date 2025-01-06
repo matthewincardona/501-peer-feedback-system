@@ -1,0 +1,24 @@
+.responderDropdown {
+    max-width: 400px;
+    margin: 8px; /* Adjust margin as needed */
+}
+
+.reformDropdown .MuiOutlinedInput-root {
+    border-color: #ccc; /* Default border color */
+}
+
+.reformDropdown .MuiOutlinedInput-root:hover fieldset {
+    border-color: #000; /* Change border color on hover */
+}
+
+.reformDropdown .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: #f76902; /* Change border color to orange on focus */
+}
+
+.reformDropdown .MuiInputLabel-root {
+    color: #ccc; /* Default label color */
+}
+
+.reformDropdown .MuiInputLabel-root.Mui-focused {
+    color: #f76902; /* Change label color to orange on focus */
+}

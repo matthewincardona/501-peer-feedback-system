@@ -1,0 +1,87 @@
+/* Login box styling */
+.loginForm {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: solid var(--Color-Text-gray-200) 1px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+    width: 100%;
+    max-width: 720px;
+    font-family: var(--Typography-font-font-family);
+    font-size: var(--base-font-size);
+    font-style: normal;
+}
+
+.loginForm_logo {
+    max-width: 120px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.loginForm_title {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Form fields styling */
+.loginForm_inputGroup {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.loginForm_inputGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: var(--Color-Text-gray-400);
+}
+
+.loginForm_inputGroup input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.loginForm_submitBtnContainer {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+/* Links for forgot username, password */
+.loginFormLinks {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.loginFormLinks a {
+    color: var(--Color-Brand-color-primary-orange);
+    text-decoration: none;
+}
+
+.loginFormLinks a:hover {
+    text-decoration: underline;
+}
+
+/* Assistance text at the bottom */
+.loginForm_assistanceText {
+    margin-top: 20px;
+    font-size: 12px;
+    color: var(--Color-Text-gray-300);
+}
+
+.loginForm_assistanceText a {
+    color: var(--Color-Brand-color-primary-orange);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.loginForm_assistanceText a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,12 @@
+.ritBanner {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Color-Brand-color-primary-orange);
+}
+
+.ritBanner img {
+    max-height: 40px;
+}

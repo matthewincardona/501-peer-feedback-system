@@ -1,0 +1,46 @@
+.form-date-picker .calendar {
+    width: 50%;
+    padding: 20px;
+}
+
+.form-date-picker .custom-date-picker .MuiOutlinedInput-root {
+    border-color: #ccc;
+    /* Default border color */
+}
+
+.form-date-picker .custom-date-picker .MuiOutlinedInput-root:hover fieldset {
+    border-color: #000;
+    /* Change border color on hover */
+}
+
+.form-date-picker .custom-date-picker .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: #f76902;
+    /* Change border color to orange on focus */
+}
+
+.form-date-picker .custom-date-picker .MuiInputLabel-root {
+    color: #ccc;
+    /* Default label color */
+}
+
+.form-date-picker .custom-date-picker .MuiInputLabel-root.Mui-focused {
+    color: #f76902;
+    /* Change label color to orange on focus */
+}
+
+.form-date-picker .bottomBttn {
+    display: flex;
+    justify-content: flex-end;
+    /* Align the button to the right */
+    padding: 20px;
+    width: 100%;
+    /* Ensure it takes full width */
+}
+
+.calendarContent {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: start;
+    align-items: start;
+}

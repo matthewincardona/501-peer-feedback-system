@@ -1,0 +1,33 @@
+.responseCard__header {
+    color: var(--Color-Brand-color-primary-orange, #F76902);
+
+    /* P */
+    font-family: var(--Typography-font-font-family, "Neue Haas Grotesk Display Std");
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 28px;
+    /* 175% */
+}
+
+.responseCard__grid {
+    display: flex;
+    padding: var(--Typography-Spacing-spacing-lg, 24px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--Typography-Spacing-spacing-lg, 240px);
+    border-radius: var(--Typography-Spacing-spacing-xxs, 4px);
+    border: 1px solid var(--Color-Text-gray-100, #e9ecef);
+    background: var(--Schemes-On-Primary, #FFF);
+
+    /* card-drop-shadow */
+    box-shadow: 3px 8px 18px 0px rgba(0, 0, 0, 0.08);
+    max-width: 745px;
+    min-width: 500px;
+    margin-top: -40px;
+}
+
+.responseCard__grid p {
+    text-align: left;
+
+}

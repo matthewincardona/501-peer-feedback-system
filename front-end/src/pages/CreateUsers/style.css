@@ -1,0 +1,47 @@
+.create-users {
+    /* Styles for the main container */
+}
+
+.create-users__group-name-title {
+    padding-bottom: 40px;
+    color: #F76902;
+}
+
+.create-users__user-roles {
+    padding-bottom: 40px;
+}
+
+.create-users__add-user-input-box {
+    display: flex;
+    align-items: center;
+}
+
+.create-users__bottom-btn {
+    display: flex;
+    padding: 20px;
+    justify-self: end;
+}
+
+.create-users .custom-textfield {
+    margin: 8px; /* Adjust margin as needed */
+}
+
+.create-users .custom-textfield .MuiOutlinedInput-root {
+    border-color: #ccc; /* Default border color */
+}
+
+.create-users .custom-textfield .MuiOutlinedInput-root:hover fieldset {
+    border-color: #000; /* Change border color on hover */
+}
+
+.create-users .custom-textfield .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: #f76902; /* Change border color to orange on focus */
+}
+
+.create-users .custom-textfield .MuiInputLabel-root {
+    color: #ccc; /* Default label color */
+}
+
+.create-users .custom-textfield .MuiInputLabel-root.Mui-focused {
+    color: #f76902; /* Change label color to orange on focus */
+}

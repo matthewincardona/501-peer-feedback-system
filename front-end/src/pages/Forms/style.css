@@ -1,0 +1,4 @@
+.formBttns{
+    display: flex;
+    flex-flow: wrap;
+}

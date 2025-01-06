@@ -1,0 +1,28 @@
+.groupDropdown {
+    max-width: 400px;
+}
+
+.groupDropdown .MuiOutlinedInput-root {
+    border-color: #ccc;
+    /* Default border color */
+}
+
+.groupDropdown .MuiOutlinedInput-root:hover fieldset {
+    border-color: #000;
+    /* Change border color on hover */
+}
+
+.groupDropdown .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: #f76902;
+    /* Change border color to orange on focus */
+}
+
+.groupDropdown .MuiInputLabel-root {
+    color: #ccc;
+    /* Default label color */
+}
+
+.groupDropdown .MuiInputLabel-root.Mui-focused {
+    color: #f76902;
+    /* Change label color to orange on focus */
+}

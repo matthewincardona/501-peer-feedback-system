@@ -1,0 +1,25 @@
+.templateForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 230px;
+    padding: var(--Typography-Spacing-spacing-lg);
+    border: 1px solid var(--Color-Text-gray-100, #e9ecef);
+    background: var(--Schemes-On-Primary, #fff);
+    border-radius: 4px;
+    box-shadow: 3px 8px 18px 0px rgba(0, 0, 0, 0.08);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin: 8px;
+}
+
+.templateForm:hover {
+    box-shadow: 3px 12px 24px rgba(0, 0, 0, 0.15); /* Slightly increase shadow on hover */
+    border-color: #f76902;
+}
+
+.templateForm.active {
+    background-color: #D0D3D4; /* Change background when active */
+    box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.15); /* Different shadow for active state */
+    border-color: #000000;
+}

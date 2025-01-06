@@ -1,0 +1,51 @@
+.create-group {
+}
+
+.create-group__adding-groups {
+    display: flex;
+    align-items: center;
+}
+
+.create-group__adding-teams {
+    display: flex;
+    align-items: center;
+}
+
+.create-group__icon-button {
+    /* margin-left: 30px; */
+}
+
+.create-group__teams-table {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.create-group__bottom-btn {
+    display: flex;
+    padding: 20px;
+    justify-self: end;
+}
+
+.create-group .custom-textfield {
+    margin: 8px; /* Adjust margin as needed */
+}
+
+.create-group .custom-textfield .MuiOutlinedInput-root {
+    border-color: #ccc; /* Default border color */
+}
+
+.create-group .custom-textfield .MuiOutlinedInput-root:hover fieldset {
+    border-color: #000; /* Change border color on hover */
+}
+
+.create-group .custom-textfield .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: #f76902; /* Change border color to orange on focus */
+}
+
+.create-group .custom-textfield .MuiInputLabel-root {
+    color: #ccc; /* Default label color */
+}
+
+.create-group .custom-textfield .MuiInputLabel-root.Mui-focused {
+    color: #f76902; /* Change label color to orange on focus */
+}

@@ -1,0 +1,12 @@
+.teamsPage {
+    display: flex;
+    flex-direction: column;
+    gap: var(--Typography-Spacing-spacing-m)
+}
+
+.teamsPage__title {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: var(--Typography-Spacing-spacing-m);
+}

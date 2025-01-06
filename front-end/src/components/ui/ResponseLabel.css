@@ -1,0 +1,20 @@
+.label__Container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.responseLabel {
+  display: none;
+  padding: var(--Typography-Spacing-spacing-xxs) var(--Typography-Spacing-spacing-m);
+  border-radius: 44px;
+  border: 1px solid var(--Color-Brand-color-primary-orange, #F76902);
+  font-size: 14px;
+  font-family: var(--Typography-font-font-family, "Neue Haas Grotesk Display Std");
+  color: var(--Color-Brand-color-primary-orange, #F76902);
+  font-weight: 700;
+  line-height: 28px;
+  /* 200% */
+  font-style: normal;
+  width: fit-content;
+}

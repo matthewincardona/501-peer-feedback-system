@@ -1,0 +1,19 @@
+.creator {
+    /* Styles for the main container */
+}
+
+.creator__group-name-title {
+    padding-bottom: 40px;
+    color: #F76902;
+}
+
+.creator__bottom-btn {
+    display: flex;
+    padding: 20px;
+    justify-self: end;
+}
+
+.creator__creatorTable{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}

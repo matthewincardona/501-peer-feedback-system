@@ -1,0 +1,95 @@
+.formCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 410px;
+  min-height: 265px;
+  padding: var(--Typography-Spacing-spacing-lg);
+  border: 1px solid var(--Color-Text-gray-100, #e9ecef);
+  background: var(--Schemes-On-Primary, #fff);
+  border-radius: 4px;
+  /* card-drop-shadow */
+  box-shadow: 3px 8px 18px 0px rgba(0, 0, 0, 0.08);
+}
+
+.formCard svg {
+  color: #f76902 !important;
+}
+
+.formCard--completed {
+  opacity: 0.4;
+  user-select: none;
+}
+
+
+.formCard__top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Typography-Spacing-spacing-xs);
+  text-align: left;
+}
+
+.formCard__top__due-date {
+  display: flex;
+  padding: 4px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.6875rem;
+  border: 1px solid #f76902;
+  margin-bottom: var(--Typography-Spacing-spacing-m);
+}
+
+.formCard__top__due-date p {
+  color: #f76902 !important;
+}
+
+.formCard__toolbar {
+  display: flex;
+  justify-content: space-between;
+  /* gap: var(--Typography-Spacing-spacing-lg); */
+}
+
+.formCard__toolbar-action {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--Typography-Spacing-spacing-xxs);
+  margin-bottom: -6px;
+  border-radius: 4px;
+}
+
+.formCard__toolbar-action:hover,
+.formCard__toolbar-action:hover p,
+.formCard__toolbar-action:hover svg {
+  color: #f76902;
+  /* Change color on hover for text and icon */
+}
+
+.formCard__toolbar-action-delete {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--Typography-Spacing-spacing-xxs);
+  margin-bottom: -6px;
+  border-radius: 4px;
+}
+
+.formCard__toolbar-action-delete:hover,
+.formCard__toolbar-action-delete:hover p,
+.formCard__toolbar-action-delete:hover svg {
+  color: #DA291C;
+}
+
+
+.formCard__toolbar-action p {
+  line-height: 0;
+}
+
+.formCard__toolbar-action svg {
+  width: 32px;
+}

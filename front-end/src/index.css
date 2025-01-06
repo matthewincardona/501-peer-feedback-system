@@ -1,0 +1,330 @@
+/* === CSS Reset === 
+https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+  5. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+  6. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/*
+  7. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/*
+  8. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* Custom */
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+/* === Top-Level Styles === */
+
+:root {
+  --Typography-font-font-family: "Neue Haas Grotesk Display Std";
+  --Typography-Spacing-spacing-xl: 48px;
+  --Typography-Spacing-spacing-lg: 24px;
+  --Typography-Spacing-spacing-m: 16px;
+  --Typography-Spacing-spacing-xs: 8px;
+  --Typography-Spacing-spacing-xxs: 4px;
+  --Typography-Spacing-spacing-btn-width: 20px;
+  --Typography-Spacing-spacing-btn-height: 10px;
+
+  --Color-Brand-color-primary-orange: #f76902;
+  --Color-Text-gray-500: #000000;
+  --Color-Text-gray-400: #212519;
+  --Color-Text-gray-300: #727578;
+  --Color-Text-gray-200: #dedede;
+  --Color-Text-gray-100: #e9ecef;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 16px;
+}
+
+main {
+  margin: auto;
+  margin-top: var(--Typography-Spacing-spacing-m);
+  max-width: 1600px;
+  padding: var(--Typography-Spacing-spacing-xl);
+}
+
+/* === Typography === */
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Std";
+  src: url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-35XLt.woff2") format("woff2"),
+    url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-35XLt.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Std";
+  src: url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-15UltTh.woff2") format("woff2"),
+    url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-15UltTh.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Std";
+  src: url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-65Md.woff2") format("woff2"),
+    url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-65Md.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Std";
+  src: url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-26ThIt.woff2") format("woff2"),
+    url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-26ThIt.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Std";
+  src: url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-45Lt.woff2") format("woff2"),
+    url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-45Lt.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Std";
+  src: url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-16UltThIt.woff2") format("woff2"),
+    url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-16UltThIt.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Std";
+  src: url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-25Th.woff2") format("woff2"),
+    url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-25Th.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Std";
+  src: url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-36XLtIt.woff2") format("woff2"),
+    url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-36XLtIt.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Std";
+  src: url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-56It.woff2") format("woff2"),
+    url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-56It.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Std";
+  src: url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-66MdIt.woff2") format("woff2"),
+    url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-66MdIt.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Std";
+  src: url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-55Rg.woff2") format("woff2"),
+    url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-55Rg.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Std";
+  src: url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-75Bd.woff2") format("woff2"),
+    url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-75Bd.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Std";
+  src: url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-46LtIt.woff2") format("woff2"),
+    url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-46LtIt.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Std";
+  src: url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-96BlkIt.woff2") format("woff2"),
+    url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-96BlkIt.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Std";
+  src: url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-76BdIt.woff2") format("woff2"),
+    url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-76BdIt.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Std";
+  src: url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-95Blk.woff2") format("woff2"),
+    url("./assets/typography/NHaasGrotesk/NHaasGroteskDSStd-95Blk.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+cite,
+.sub {
+  color: var(--Color-Text-gray-500);
+  font-family: var(--Typography-font-font-family);
+  font-size: var(--base-font-size);
+  font-style: normal;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.25rem;
+  /* 106.25% */
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  /* 111.111% */
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+  /* 112.5% */
+}
+
+h4 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2rem;
+  /* 114.286%  */
+}
+
+p {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+  /* 175% */
+}
+
+p.sub {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+  /* 200% */
+}
+
+/* button {
+  color: var(--Color-Text-gray-400);
+  font-family: var(--Typography-font-font-family);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+} */

@@ -1,0 +1,30 @@
+.iconButton {
+  padding: var(--Typography-Spacing-spacing-xs) var(--Typography-Spacing-spacing-m);
+  border: none;
+  background: var(--Color-Brand-color-primary-orange, #F76902);
+  color: #FFFFFF;
+  font-family: var(--Typography-font-font-family, "Neue Haas Grotesk Display Std");
+  font-size: var(--base-font-size);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  cursor: pointer;
+  height: fit-content;
+  display: flex;
+  white-space: nowrap;
+  gap: var(--Typography-Spacing-spacing-xs);
+  flex-direction: row;
+  align-items: center;
+  transition: background .3s ease-in-out;
+}
+
+.iconButton:hover {
+  background: #000;
+}
+
+.iconButton:focus,
+.iconButton:active {
+  background: none;
+  color: black;
+  border: solid 1px black;
+}
