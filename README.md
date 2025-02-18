@@ -2,7 +2,7 @@
 
 This project was made by Group 404 Name Not Found for the Fall 2024 ISTE 501 class. 
 
-The team consists of:
+The team consisted of:
 - Incardona, Matthew
 - Cacayorin, Bethany,
 - Tenezaca, Oscar
