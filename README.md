@@ -25,4 +25,3 @@ The team consisted of:
 2) Run "npm i"
 3) Run "npm run dev"
 3) Open http://localhost:1000/login
-# 501-peer-feedback-system
