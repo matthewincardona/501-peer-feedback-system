@@ -4,7 +4,7 @@ This project was made by Group 404 Name Not Found for the Fall 2024 ISTE 501 cla
 
 The team consisted of:
 - Incardona, Matthew
-- Cacayorin, Bethany,
+- Cacayorin, Bethany
 - Tenezaca, Oscar
 - Apollo, Andrew
 - Sciubba, Matthew
